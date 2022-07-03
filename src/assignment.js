@@ -21,7 +21,7 @@ let sum = arrayOfNumbers.reduce((x, y) => {
 function sumOfNumbers(arrayOfNumbers) {
   return sum;
 }
-// console.log(sum)
+
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -41,6 +41,7 @@ const evenNumbers = numbers.filter(number => {
 function countEvenNumbers(arrayOfNumbers) {
   return evenNumbers.length;
 }
+
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
