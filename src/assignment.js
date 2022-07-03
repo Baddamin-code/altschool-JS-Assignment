@@ -33,9 +33,9 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-let numbers = [17,0,67,41,49,21,1,86,76,2,54,14,93,84,14,77,35,7,29,64]
-const evenNumbers = numbers.filter(array => {
-  return array % 2 === 0;
+const numbers = [17,0,67,41,49,21,1,86,76,2,54,14,93,84,14,77,35,7,29,64]
+const evenNumbers = numbers.filter(number => {
+  return number % 2 === 0;
 });
 
 function countEvenNumbers(arrayOfNumbers) {
@@ -67,6 +67,4 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 // DO NOT EDIT THIS BLOCK
 module.exports = assignment;
 // ========================
-
-
 
